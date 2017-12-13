@@ -5,6 +5,7 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 public class PlayerClient implements Remote {
+	
 	public static void main(String[] args) {
 		try {
 			PlayerImpl player = new PlayerImpl();
